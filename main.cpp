@@ -4,7 +4,7 @@ using namespace std;
 using namespace cv;
 
 int main(int argc, char** argv) {
-	VideoCapture cap = VideoCapture("/uav_rsc/lab-roomba.mp4");
+	VideoCapture cap = VideoCapture("./video.mp4");
 
 	while (cap.read(frame)) {
         imshow("", frame);
